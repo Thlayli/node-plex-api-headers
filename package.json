@@ -1,6 +1,6 @@
 {
   "name": "plex-api-headers",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "HTTP headers for plex-api and related modules",
   "main": "index.js",
   "scripts": {
@@ -11,10 +11,10 @@
     "plex",
     "headers"
   ],
-  "author": "Phillip Johnsen <johphi@gmail.com>",
+  "author": "Nathan Blume <thlayli@detrave.net>",
   "license": "MIT",
-  "repository": "git://github.com/phillipj/node-plex-api-headers",
-  "bugs": "https://github.com/phillipj/node-plex-api-headers/issues",
+  "repository": "git://github.com/thlayli/node-plex-api-headers",
+  "bugs": "https://github.com/thlayli/node-plex-api-headers/issues",
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/commit-analyzer": "^8.0.1",
