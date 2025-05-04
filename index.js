@@ -1,7 +1,5 @@
 'use strict';
 
-var extend = require('util')._extend;
-
 function withoutNulls(obj) {
     return obj && Object.keys(obj).reduce(function (sum, curr) {
         if (typeof obj[curr] === 'string') {
@@ -20,7 +18,7 @@ module.exports = function headers(plexApi, extraHeaders) {
     options = plexApi.options;
     extraHeaders = withoutNulls(extraHeaders) || {};
 
-    return extend(extraHeaders, {
+    return Object.assign(extraHeaders, {
         'X-Plex-Client-Identifier': options.identifier,
         'X-Plex-Product': options.product,
         'X-Plex-Version': options.version,
