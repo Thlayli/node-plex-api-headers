@@ -1,8 +1,10 @@
-# plex-api-headers [![Build Status](https://api.travis-ci.org/phillipj/node-plex-api-headers.png)](http://travis-ci.org/phillipj/node-plex-api-headers)
+# plex-api-headers
 
 Helper module providing HTTP headers used by [plex-api](https://www.npmjs.com/package/plex-api) and related modules.
 
 Returns an object of headers to be used when requesting Plex related services.
+
+Fixes deprecation warning for util._extend
 
 ## Usage
 
